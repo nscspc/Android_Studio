@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!---->
+    <item
+        android:id="@+id/add"
+        android:title="@string/add"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"/>
+    <!-- it is necessary to specify a title of the item. -->
+    <!-- title will be displayed if we have not specified the icon. -->
+    <!-- showAsAction specifies that how the item will appear in the action bar, if we do not use it then it will appear in the dropdown menu of the last item of the action bar. -->
+    <!-- if we mention "always" or "always|withtext" then it will appear in action bar , but if we mention "never" then it will appear in dropdown menu of the last item of the action bar. -->
+    <!-- using "always" , item will be displayed always on the action bar , but if there are many item specified with "always" then they may overlap due to less space. -->
+    <!-- using "always|withText" , item will be displayed with text always on the action bar -->
+    <!-- using "ifRoom" , item(action button) will be displayed on the action bar only if there is room(space) available on the action bar. -->
+    <!-- using "ifRoom|withText" , item will be displayed on the actioon bar only if there is room(space) available on the action bar. -->
+    <!-- using "withText" , item will be as text in the last item of the action bar. -->
+    <item
+        android:id="@+id/reset"
+        android:title="@string/reset"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="always|withText"/>
+    <!-- "|" :- this is known as pipe and it is used for separating the values in this case. -->
+
+    <!-- for the last 2 items a default icon is generated because we have specifed the showAsAction as "never" and we have not specified the icon for those so to show them in the text a separate default icon is created. -->
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never"/>
+    <!-- using "never" value of showAsAction means that , never place this item in the app bar , instead list this item in the app bar's overflow menu. -->
+    <!-- if we use "always" here then , info icon will be displayed in the action bar. -->
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        app:showAsAction="never"/>
+
+</menu>

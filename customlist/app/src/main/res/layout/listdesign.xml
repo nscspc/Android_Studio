@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txt"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:textColor="#E3E2E2"
+        android:textStyle="bold"
+        android:background="#0000FF"/>
+    <!--padding(padding specifies the exact position) denotes the space between test and the list borders from all the 4 side-->
+    <!--layout_margin(margin specifies the position w.r.t size of the screen of the device) denotes the margin(distance) of the layout to the screen for all the 4 sides-->
+    <!--background represents the color of the background of the area occupied by the TextView-->
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    tools:context=".yearsselector">
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="All  Years  Notes"
+            android:textAlignment="center"
+            android:textColor="#240065"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#522D95" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:text="First  Year"
+                android:layout_margin="15dp"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                app:backgroundTint="#EB21DCF4" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:text="Second Year"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                app:backgroundTint="#1482DA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:text="Third Year"
+                android:layout_margin="15dp"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:text="Fourth Year"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                app:backgroundTint="#6293BA" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomActionBar</string>
+    <string name="add">add</string>
+    <string name="withtext">withtext</string>
+    <string name="reset">reset</string>
+    <string name="about">about</string>
+    <string name="exit">exit</string>
+</resources>

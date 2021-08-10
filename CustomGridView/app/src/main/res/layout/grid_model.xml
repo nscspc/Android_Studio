@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <!-- here we have done orientation as vertical because we want that text should come below image , otherwise it will come in horizontally right direction of the image.
+         here we have done gravity center , otherwise the text will appear in leftjustified not in center and image as well-->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingTop="20dp"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:textSize="25sp"
+        android:textColor="@color/teal_700"/>
+
+</LinearLayout>

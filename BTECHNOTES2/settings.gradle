@@ -1,0 +1,2 @@
+rootProject.name = "BTECH NOTES"
+include ':app'

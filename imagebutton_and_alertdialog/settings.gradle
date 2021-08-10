@@ -1,0 +1,2 @@
+rootProject.name = "imagebutton_and_alertdialog"
+include ':app'

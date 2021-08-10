@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="450dp"
+        android:id="@+id/img"
+        android:src="@drawable/flashoff"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custombutton"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:onClick="toggle"
+        android:text="Flash On"
+        android:textSize="18sp"
+        tools:ignore="MissingClass" />
+
+</LinearLayout>

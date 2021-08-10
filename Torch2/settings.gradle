@@ -1,0 +1,2 @@
+rootProject.name = "Torch2"
+include ':app'
